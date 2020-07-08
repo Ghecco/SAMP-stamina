@@ -44,3 +44,10 @@ public OnPlayerUpdate(playerid)
 	else if(GetPlayerStamina(playerid) < GetPlayerMaxStamina(playerid)) GivePlayerStamina(playerid, 1); // if the player is not running, he recovers the current stamina up to his MAX
 	return 1;
 }
+
+public OnPlayerStaminaOver(playerid)
+{
+	SetPlayerExhausted(playerid, true);
+	return 1;
+}
+
