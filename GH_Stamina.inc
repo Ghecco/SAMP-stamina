@@ -199,3 +199,4 @@ stock GetPlayerSprintVelocity(playerid) // Get the player's sprint velocity (flo
 	return Float:velocity;
 }
 
+
