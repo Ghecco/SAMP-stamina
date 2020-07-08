@@ -3,6 +3,7 @@
 #include <a_samp>
 #include <g_Stamina> 
 
+// [Defines]
 #define STAMINA_DEFAULT_MAX				(200)
 
 #define FILTERSCRIPT
@@ -22,6 +23,7 @@ public OnFilterScriptInit()
 }
 
 #endif
+
 
 public OnPlayerConnect(playerid)
 {
