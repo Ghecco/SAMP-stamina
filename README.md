@@ -1,7 +1,7 @@
 ![Image of Yaktocat](https://i.imgur.com/Tza7GaU.png)
 
 
-# [Include] GH_Stamina 1.0
+# [Include] GH_Stamina
 
 This simple include allows you to create and manage a stamina system.
 ## How does it work?
