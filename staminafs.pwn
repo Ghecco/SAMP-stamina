@@ -1,7 +1,7 @@
 // [Includes]
 
 #include <a_samp>
-#include <g_Stamina> 
+#include <GH_Stamina>
 
 // [Defines]
 #define STAMINA_DEFAULT_MAX				(200)
@@ -13,11 +13,11 @@
 
 public OnFilterScriptInit()
 {
-  print("Stamina System Loaded.");
-	for(new i, maxp = GetPlayerPoolSize(); i <= maxp; ++i)
+  	print("Stamina System Loaded.");
+	for(new i, maxp = GetPlayerPoolSize(); i <= maxp; i++)
 	{
-		SetPlayerMaxStamina(playerid, STAMINA_DEFAULT_MAX);
-		SetPlayerStamina(playerid, STAMINA_DEFAULT_MAX);
+		SetPlayerMaxStamina(i, STAMINA_DEFAULT_MAX);
+		SetPlayerStamina(i, STAMINA_DEFAULT_MAX);
 	}
     return 1;
 }
@@ -39,7 +39,7 @@ public OnPlayerSpawn(playerid)
 
 public OnPlayerUpdate(playerid)
 {
-	
+
 	if(IsPlayerRunning(playerid)) GivePlayerStamina(playerid, -1); // if the player run, it subtracts the player's stamina
 	else if(GetPlayerStamina(playerid) < GetPlayerMaxStamina(playerid)) GivePlayerStamina(playerid, 1); // if the player is not running, he recovers the current stamina up to his MAX
 	return 1;
@@ -50,4 +50,3 @@ public OnPlayerStaminaOver(playerid)
 	SetPlayerExhausted(playerid, true);
 	return 1;
 }
-
