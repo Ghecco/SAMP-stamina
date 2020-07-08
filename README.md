@@ -23,7 +23,7 @@ This includes bases the stamina system on 4 values.
 
     IsPlayerRunning(playerid); // Check if the player is running.
     IsPlayerExhausted(playerid); // Check if the player is exhausted.
-    SetPlayerExhausted(playerid, bool:Exhausted) set the exhausted player (if is true the player will do the tired anim).
+    SetPlayerExhausted(playerid, bool:Exhausted) // Set the exhausted player (if is true the player will do the tired anim).
     
     GetPlayerStamina(playerid)	// Get the player's current stamina.
     GivePlayerStamina(playerid, value) // Add / Subtract the player's current stamina.
