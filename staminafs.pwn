@@ -27,7 +27,8 @@ public OnFilterScriptInit()
 
 public OnPlayerConnect(playerid)
 {
-	SetPlayerMaxStamina(playerid, STAMINA_DEFAULT_MAX);
+	SetPlayerMaxStamina(playerid, -1);
+	SetPlayerExhausted(playerid, true);
 	return 1;
 }
 
@@ -39,7 +40,6 @@ public OnPlayerSpawn(playerid)
 
 public OnPlayerUpdate(playerid)
 {
-
 	if(IsPlayerRunning(playerid)) GivePlayerStamina(playerid, -1); // if the player run, it subtracts the player's stamina
 	else if(GetPlayerStamina(playerid) < GetPlayerMaxStamina(playerid)) GivePlayerStamina(playerid, 1); // if the player is not running, he recovers the current stamina up to his MAX
 	return 1;
