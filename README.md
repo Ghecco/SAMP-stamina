@@ -52,4 +52,3 @@ This includes bases the stamina system on 4 values.
 
  - [[Filterscript] Stamina System](https://github.com/Ghecco/GH_Stamina/blob/master/staminafs.pwn)
 
-
