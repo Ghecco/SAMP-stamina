@@ -34,8 +34,8 @@ This includes bases the stamina system on 4 values.
     GivePlayerMaxStamina(playerid, Float:value) // Add / Subtract the player's maximum stamina.
     SetPlayerMaxStamina(playerid, Float:value) // Set the player's maximum stamina.
     
-	GivePlayerSprintVelocity(playerid, Float:value) // Multiply / divide the player's sprint speed (exceeded (2.0) you will get a bad result).
-	GetPlayerSprintVelocity(playerid) // Get the player's sprint velocity. 
+    GivePlayerSprintVelocity(playerid, Float:value) // Multiply / divide the player's sprint speed (exceeded (2.0) you will get a bad result).
+    GetPlayerSprintVelocity(playerid) // Get the player's sprint velocity. 
 ```
 *New Define:*
 
@@ -52,21 +52,4 @@ This includes bases the stamina system on 4 values.
 
  - [[Filterscript] Stamina System](https://github.com/Ghecco/GH_Stamina/blob/master/staminafs.pwn)
 
-  
-```javascript
 
-    IsPlayerRunning(playerid); // Check if the player is running.
-    IsPlayerExhausted(playerid); // Check if the player is exhausted.
-    SetPlayerExhausted(playerid, bool:Exhausted) // Set the exhausted player (if is true the player will do the tired anim).
-    
-    GetPlayerStamina(playerid)	// Get the player's current stamina.
-    GivePlayerStamina(playerid, value) // Add / Subtract the player's current stamina.
-    SetPlayerStamina(playerid, value) // Set the player's current stamina.	 
-    
-    GetPlayerMaxStamina(playerid) // Get the player's maximum stamina.
-    GivePlayerMaxStamina(playerid, Float:value) // Add / Subtract the player's maximum stamina.
-    SetPlayerMaxStamina(playerid, Float:value) // Set the player's maximum stamina.
-    
-	GivePlayerSprintVelocity(playerid, Float:value) // Multiply / divide the player's sprint speed (exceeded (2.0) you will get a bad result).
-	GetPlayerSprintVelocity(playerid) // Get the player's sprint velocity. 
-```
