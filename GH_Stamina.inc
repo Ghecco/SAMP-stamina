@@ -100,7 +100,7 @@ public SetPlayerExhausted(playerid, bool:Exhausted)  // If true the player will 
 		TogglePlayerControllable(playerid,0);
 		TogglePlayerControllable(playerid,1);
 
-		ApplyAnimation(playerid, "PED", "IDLE_tired", 4.1, 0, 1, 1, 0, STAMINA_DEFAULT_RECOVERYTIME, 1);
+		ApplyAnimation(playerid, "FAT", "IDLE_tired", 4.1, 0, 1, 1, 0, STAMINA_DEFAULT_RECOVERYTIME, 1);
 
 		SetPVarInt(playerid, "Exhausted", 1);
 		SetTimerEx("SetPlayerExhausted", STAMINA_DEFAULT_RECOVERYTIME, false, "ib", playerid, false);
