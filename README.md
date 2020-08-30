@@ -44,7 +44,7 @@ This includes bases the stamina system on 4 values.
 
 ## Installing
 
- - Download `GH_Stamina.inc`.
+ - Download `GH_stamina.inc`.
  - Move it in your **SA-MP Server Folder** --> pawno/include.
  - Include in your gamemode #include <GH_stamina>.
 
