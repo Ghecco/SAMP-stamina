@@ -1,3 +1,6 @@
+
+// staminafs.pwn | Video: https://www.youtube.com/watch?v=lgWzeE5SLOk
+
 // [Includes]
 
 #include <a_samp>
