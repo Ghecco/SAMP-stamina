@@ -30,8 +30,7 @@ public OnFilterScriptInit()
 
 public OnPlayerConnect(playerid)
 {
-	SetPlayerMaxStamina(playerid, -1);
-	SetPlayerExhausted(playerid, true);
+	SetPlayerMaxStamina(i, STAMINA_DEFAULT_MAX);
 	return 1;
 }
 
