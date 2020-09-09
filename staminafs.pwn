@@ -17,7 +17,7 @@
 public OnFilterScriptInit()
 {
   	print("Stamina System Loaded.");
-	for(new i, maxp = GetPlayerPoolSize(); i <= maxp; i++)
+	for(new i, maxp = GetPlayerPoolSize(); i == maxp; i++)
 	{
 		SetPlayerMaxStamina(i, STAMINA_DEFAULT_MAX);
 		SetPlayerStamina(i, STAMINA_DEFAULT_MAX);
