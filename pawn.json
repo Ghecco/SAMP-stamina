@@ -1,5 +1,5 @@
 {
 	"user": "Ghecco",
 	"repo": "GH_stamina",
-	"dependencies": "sampctl/samp-stdlib"
+	"dependencies": ["sampctl/samp-stdlib"]
 }
