@@ -1,0 +1,10 @@
+{
+	"user": "Ghecco",
+	"repo": "GH_stamina",
+	"entry": "filterscripts/test.pwn",
+	"output": "filterscripts/test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"Ghecco/GH_stamina"
+	]
+}
