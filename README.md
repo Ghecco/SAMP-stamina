@@ -48,6 +48,7 @@ This includes bases the stamina system on 4 values.
  - Move it in your **SA-MP Server Folder** --> pawno/include.
  - Include in your gamemode #include <GH_stamina>.
 
+*If you use sampctl*: ```sampctl package install Ghecco/GH_stamina```
 ## Example & Filterscript
 
  - [[Filterscript] Stamina System](https://github.com/Ghecco/GH_Stamina/blob/master/staminafs.pwn)
