@@ -1,6 +1,6 @@
 
 		/*																																								*\
-																	*[GH_Stamina] Version: 1.0* 
+																	*[SAMP_Stamina] Version: 1.0* 
 
 
 
